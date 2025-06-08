@@ -1,0 +1,66 @@
+.status-indicator {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.metric-container {
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.robot-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    background-color: white;
+}
+
+.status-active {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.status-inactive {
+    color: #dc3545;
+    font-weight: bold;
+}
+
+.metric-value {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #2c3e50;
+}
+.st-emotion-cache-g08yqh {
+    justify-content: flex-end;
+}
+
+.metric-label {
+    font-size: 0.9rem;
+    color: #7f8c8d;
+}
+
+/* Custom styling for the DataFrames */
+.dataframe {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+/* Improve button styling */
+.stButton > button {
+    width: 100%;
+    border-radius: 4px;
+    height: 3em;
+}
+
+
+.col-tog:active + .st-emotion-cache-1210xgo{
+    display:none;
+
+}
+
+
